@@ -1,17 +1,22 @@
 {
   "name": "jupiterplus",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "Jupiterplus is a platform where you can enjoy the latest movies and series for free, for Latinos, with options to enjoy content in Spanish or English. And it has several good quality servers.",
   "dependencies": {
+    "@material-ui/core": "^4.8.3",
+    "@material-ui/icons": "^4.5.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@types/jest": "^24.0.0",
     "@types/node": "^12.0.0",
-    "@types/react": "^16.9.0",
-    "@types/react-dom": "^16.9.0",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-router-dom": "^5.1.3",
+    "easy-peasy": "^3.3.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0",
     "typescript": "~3.7.2"
   },
@@ -21,6 +26,41 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChrisMichaelPerezSantiago/jupiterplus"
+  },
+  "author": {
+    "name": "Chris Michael",
+    "email": "chrisperezsantiago1@gmail.com",
+    "url": "http://personal-porfolio.chrismichael.now.sh",
+    "social": {
+      "github": "https://github.com/ChrisMichaelPerezSantiago",
+      "twitter": "https://twitter.com/Chris5855M"
+    }
+  },
+  "contributors": [
+    {
+      "name": "Chris Michael",
+      "url": "https://github.com/ChrisMichaelPerezSantiago",
+      "reason": "Project Leader, and Developer"
+    }
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10.16.x",
+    "npm": ">= 6.9.x"
+  },
+  "bugs": {
+    "url": "https://github.com/ChrisMichaelPerezSantiago/jupiterplus/issues"
+  },
+  "homepage": "https://github.com/ChrisMichaelPerezSantiago/jupiterplus#readme",
+  "keywords": [
+    "jupiterplus",
+    "jupiter+",
+    "movies",
+    "series"
+  ],
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -35,5 +75,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.17",
+    "@typescript-eslint/eslint-plugin": "^2.16.0",
+    "@typescript-eslint/parser": "^2.16.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react-hooks": "^1.7.0"
   }
 }
