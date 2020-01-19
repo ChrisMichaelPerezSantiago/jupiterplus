@@ -33,7 +33,7 @@ Before cloning the repo **be sure** you have installed:
 Then:
 
 - Choose a folder project in your system and switch in `cd [folder path]`
-- Clone the repo in your folder path `git clone git+https://github.com/ChrisMichaelPerezSantiago/devbit`
+- Clone the repo in your folder path `git clone git+https://github.com/ChrisMichaelPerezSantiago/jupiterplus`
 
 ---
 
@@ -72,4 +72,4 @@ _*Chris Michael*_
 
 ---
 
-Copyright © 2019 [DevBit](https://github.com/ChrisMichaelPerezSantiago/devbit).
+Copyright © 2019 [Jupiter+](https://github.com/ChrisMichaelPerezSantiago/jupiterplus).
