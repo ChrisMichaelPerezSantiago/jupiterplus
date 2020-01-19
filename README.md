@@ -1,44 +1,75 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# **:triangular_flag_on_post: Jupiter Plus** (version 1.0.0)
 
-## Available Scripts
+![node version](https://img.shields.io/badge/node->=10.16.x-brightgreen.svg)
+![npm version](https://img.shields.io/badge/npm->=6.9.x-brightgreen.svg)
+<a href="https://github.com/ChrisMichaelPerezSantiago/jupiterplus/graphs/commit-activity">
+  <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
+</a>
+<a href="https://github.com/ChrisMichaelPerezSantiago/jupiterplus/blob/master/LICENSE">
+  <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
+</a>
 
-In the project directory, you can run:
+<img src="https://img.shields.io/github/stars/ChrisMichaelPerezSantiago/jupiterplus?style=social" alt="">
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+> _Jupiterplus is a platform where you can enjoy the latest movies and series for free, for Latinos, with options to enjoy content in Spanish or English. And it has several good quality servers._
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+<img src="./public/jupiter+.png" style="width:100%">
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **:wrench: Developer usage**
 
-### `yarn build`
+### 👷🚧In construction 
+*More information in the coming days.*
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **Set up project**
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Before cloning the repo **be sure** you have installed:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [*node*](https://www.google.com/search?q=how+to+install+node) (version >= 10.16.x)
+- [*npm*](https://www.google.com/search?q=how+to+install+npm) (version >= 6.9.x)
 
-### `yarn eject`
+Then:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Choose a folder project in your system and switch in `cd [folder path]`
+- Clone the repo in your folder path `git clone git+https://github.com/ChrisMichaelPerezSantiago/devbit`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## **:handshake: Contributing**
 
-## Learn More
+- Fork it!
+- Create your feature branch: `git checkout -b my-new-feature`
+- Commit your changes: `git commit -am 'Add some feature'`
+- Push to the branch: `git push origin my-new-feature`
+- Submit a pull request
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### **:busts_in_silhouette: Credits**
+
+- [Chris Michael](https://github.com/ChrisMichaelPerezSantiago) (Project Leader, and Developer)
+
+---
+
+
+### **:heart: Show your support**
+
+Please :star: this repository if you like it or this project helped you!\
+Feel free to open issues or submit pull-requests to help me improving my work.
+
+---
+
+
+### **:robot: Author**
+
+_*Chris Michael*_
+
+> You can follow me on
+[github](https://github.com/ChrisMichaelPerezSantiago)&nbsp;&middot;&nbsp;[twitter](https://twitter.com/Chris5855M)
+
+---
+
+Copyright © 2019 [DevBit](https://github.com/ChrisMichaelPerezSantiago/devbit).
