@@ -1,4 +1,5 @@
 import SerieModel from '../interfaces/Serie/SerieModel';
+import useInsertDB from '../compositions/db/serie/insert';
 import { thunk, action } from 'easy-peasy';
 
 const Serie: SerieModel = {
@@ -11,6 +12,7 @@ const Serie: SerieModel = {
       method: 'GET',
     });
     const doc = await res.json();
+    const content = useInsertDB(doc);
     state.set(doc);
   })
 };
