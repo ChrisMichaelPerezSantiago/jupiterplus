@@ -72,4 +72,4 @@ _*Chris Michael*_
 
 ---
 
-Copyright © 2019 [Jupiter+](https://github.com/ChrisMichaelPerezSantiago/jupiterplus).
+Copyright © 2020 [Jupiter+](https://github.com/ChrisMichaelPerezSantiago/jupiterplus).
