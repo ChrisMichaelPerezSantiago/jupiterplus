@@ -11,6 +11,7 @@ import Home from '../Home/index';
 import About from '../About/index';
 import useStyles from './styles';
 
+require('../../db/index.ts');
 
 const App: React.FC = () => {
   const classes = useStyles();
