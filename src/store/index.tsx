@@ -1,9 +1,9 @@
 import {createStore} from 'easy-peasy';
-import SerieStore from '../interfaces/Serie/SerieStore';
+import GlobalStore from '../interfaces/GlobalStore';
 import Serie from './Serie';
 
-const store: SerieStore = {
+const store: GlobalStore = {
   series: Serie
 };
 
-export default createStore<SerieStore>(store);
+export default createStore<GlobalStore>(store);
