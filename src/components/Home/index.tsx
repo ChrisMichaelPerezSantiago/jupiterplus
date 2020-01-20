@@ -1,10 +1,15 @@
-import React from 'react';
-import { useStoreState } from 'easy-peasy';
+import React, { useEffect } from 'react';
+import { useStoreState, useStoreActions } from '../../hooks';
 
 const Home: React.FC = () => {
-  const {entries} = useStoreState(state =>state.series);
+  const entries = useStoreState((state) => state.series.entries);
+  const get = useStoreActions((state) => state.series.get);
 
-  console.log(entries)
+  console.log(entries);
+
+  useEffect(() =>{
+    get()
+  } , []);
 
   return(
     <div>
