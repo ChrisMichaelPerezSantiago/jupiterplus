@@ -1,7 +1,7 @@
 import { createTypedHooks } from 'easy-peasy';
-import SerieStore from '../interfaces/Serie/SerieStore';
+import GlobalStore from '../interfaces/GlobalStore';
 
-const typedHooks = createTypedHooks<SerieStore>();
+const typedHooks = createTypedHooks<GlobalStore>();
 
 export const useStoreActions = typedHooks.useStoreActions;
 export const useStoreDispatch = typedHooks.useStoreDispatch;
