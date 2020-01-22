@@ -5,17 +5,14 @@ const Home: React.FC = () => {
   const entries = useStoreState((state) => state.series.entries);
   const get = useStoreActions((state) => state.series.get);
 
-  console.log('entries' , entries);
+  console.log('entries', entries);
 
-  useEffect(() =>{
-    get()
-  } , []);
+  useEffect(() => {
+    get();
+  }, []);
 
-  return(
-    <div>
-      <h1>Home</h1>
-      <pre>{JSON.stringify(entries  , null , 2)}</pre>
-    </div>
+  return (
+    <pre>{JSON.stringify(entries, null, 2)}</pre>
   )
 };
 
