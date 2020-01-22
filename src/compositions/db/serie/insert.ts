@@ -1,19 +1,17 @@
 import { nSQL } from '@nano-sql/core';
-import SerieRootObject from '../../../interfaces/Serie/SerieRootObject';
+import Serie from '../../../interfaces/Serie/Serie';
 
 nSQL().useDatabase('jupiterplusdb');
 
-function useInsertDB(doc: any): SerieRootObject[] {
-  let serie: SerieRootObject[] = []
+function useInsertDB(state: any , doc: Serie[]): void {
   nSQL('series')
     .query('upsert' , doc)
     .exec()
     .then(() =>{
       return nSQL().query('select').exec()
     }).then((rows: any) =>{
-      serie.push(rows);
-    })
-    return serie;
+      state.set(rows);
+    });
 };
 
 export default useInsertDB;
