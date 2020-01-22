@@ -3,6 +3,6 @@ import {nSQL} from '@nano-sql/core';
 
 nSQL().createDatabase({
   id: 'jupiterplusdb',
-  mode: 'LS',
+  mode: 'PERM',
   tables: GlobalTable
 });
