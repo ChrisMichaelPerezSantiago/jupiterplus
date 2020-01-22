@@ -1,6 +1,6 @@
 import Extra from './Extra';
 
-export default interface Series {
+export default interface Serie {
   id: string;
   title: string;
   sinopsis: string;
