@@ -45,7 +45,7 @@ const Home: React.FC = () => {
                             {
                               entries.map((serie: Serie) => {
                                 return(
-                                  <SerieComponent serie={serie} key={serie.id} />
+                                  <SerieComponent serie={serie} key={serie.ID} />
                                 );
                               })
                             }
