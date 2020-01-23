@@ -6,12 +6,12 @@ type T = {
   serie: Serie
 };
 
-const SerieComponent: React.FC<T> = ({ serie: { id, title, sinopsis, poster, rating, year, extra } }) => {
+const SerieComponent: React.FC<T> = ({ serie: {ID , id, title, sinopsis, poster, rating, year, extra } }) => {
   let channel = extra.map(x => { return x.channel });
 
   return (
     <div className="post-2930 movie type-movie status-publish has-post-thumbnail hentry movie_genre-action">
-      <Link to={{ pathname: `/serie-section/${id}` }}>
+      <Link to={{ pathname: `/serie-section/${ID}` }}>
 
         <div className="movie__poster">
           <br />
