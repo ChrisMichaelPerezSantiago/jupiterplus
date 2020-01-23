@@ -9,6 +9,8 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import Home from '../Home/index';
 import About from '../About/index';
+import Footer from '../Footer/index';
+import SerieSection from '../SerieSection/index';
 import useStyles from './styles';
 
 require('../../db/index.ts');
@@ -28,8 +30,10 @@ const App: React.FC = () => {
         <Switch>
           <Route exact path="/" component={Home}></Route>
           <Route exact path="/about" component={About}></Route>
+          <Route exact path="/serie-section/:id" component={SerieSection}></Route>
           <Redirect to="/" />
         </Switch>
+        <Footer/>
       </div>
     </div>
   )
