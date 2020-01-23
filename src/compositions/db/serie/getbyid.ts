@@ -6,7 +6,7 @@ nSQL().useDatabase('jupiterplusdb');
 function useGetByIdDB(id: string): Promise<Serie[]> {
   return nSQL('series')
     .query('select')
-      .where(['id', '=', id])
+      .where(['ID', '=', id])
     .exec() as any;
 };
 
