@@ -34,8 +34,8 @@ const SerieSection: React.FC<Props> = (props) => {
   const year = get.map(x => x.year);
   const rating = get.map(x => x.rating);
   const poster = get.map(x => x.poster);
-  let characters = get.map(res =>{
-    return res.extra.map(doc =>{
+  let characters = get.map(res => {
+    return res.extra.map(doc => {
       return doc.cast_members.members_list
     })
   });
@@ -68,7 +68,7 @@ const SerieSection: React.FC<Props> = (props) => {
                           </svg>
                         </span>
                         Black Mirror
-                </nav>
+                      </nav>
                       <div className="movie__head">
                         <div className="movie__player"> <iframe width="1024" height="574" src="https://www.youtube.com/embed/XM0xWpBYlNM"></iframe></div>
                       </div>
@@ -104,25 +104,18 @@ const SerieSection: React.FC<Props> = (props) => {
                           <div className="movies__inner">
 
                             {
-                              characters.map(res =>{
-                                res.map(doc =>{
-                                  doc.map(info =>{
-                                    info.members_info.map(members =>{
-                                      return(
-                                        <Characters members={members}/>
+                              characters.map(res => {
+                                res.map(doc => {
+                                  doc.map(info => {
+                                    info.members_info.map(members => {
+                                      return (
+                                        <Characters members={members} />
                                       )
                                     })
                                   })
                                 })
                               })
-                            
-                          
-      
                             }
-
-
-
-
 
                           </div>
                         </div>
