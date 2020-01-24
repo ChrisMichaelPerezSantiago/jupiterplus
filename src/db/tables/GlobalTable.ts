@@ -25,6 +25,43 @@ const GlobalTable: InanoSQLTableConfig[] = [
         }
       },
     }
+  }, 
+  {
+    name: "movies",
+    model: {
+      "ID:uuid": {pk: true , ai: true},
+      "title:string": {},
+      "sinopsis:string": {},
+      "poster:string": {},
+      "rating:string": {},
+      "quality:string": {},
+      "year:string": {},
+      "extra:array": {
+        "air_date:string": {},
+        "country:string": {},
+        "runtime:string": {},
+        "rated:string": {},
+        "cast_members:array": {
+          "creator:array": {
+            "name:string": {},
+            "poster:string": {}
+          },
+          "members_list:array": {
+            "members_info:array": {
+              "characters:array": {
+                "real_name:string": {},
+                "character:string": {}
+              },
+              "poster: string": {}
+            }
+          },
+          "similar_movies:array": {
+            "id:string": {},
+            "poster:string": {}
+          }
+        }
+      },
+    }
   }
 ];
 
