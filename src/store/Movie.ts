@@ -1,5 +1,8 @@
 import MovieModel from "../interfaces/Movie/MovieModel";
-import {thunk, action } from 'easy-peasy'
+import MovieRootObject from '../interfaces/Movie/MovieRootObject';
+import useInsertDB from '../compositions/db/movie/insert'
+import {thunk, action } from 'easy-peasy';
+import axios from 'axios';
 
 const Movie: MovieModel = {
   entries: [],
@@ -7,11 +10,12 @@ const Movie: MovieModel = {
     state.entries = entries;
   }),
   get: thunk(async(state) =>{
-    const res = await fetch('https://cinemanight.chrismichael.now.sh/api/v1/movies/1', {
+    const url = 'https://cinemanight.chrismichael.now.sh/api/v1/movies/1';
+    const {data} = await axios.get<MovieRootObject>(url, {
       method: 'GET',
     });
-    const doc = await res.json();
-    state.set(doc);
+    let doc = data.movies;
+    useInsertDB(state , doc);
   })
 };
 
